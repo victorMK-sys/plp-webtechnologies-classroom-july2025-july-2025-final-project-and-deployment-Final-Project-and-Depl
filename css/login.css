@@ -1,0 +1,55 @@
+.login-container {
+  box-shadow: 0 0 5px hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+#hero-title {
+  color: hsl(0, 0%, 25%);
+}
+
+form {
+  max-width: 300px;
+  border: 1px solid hsl(0, 0%, 50%);
+  border-radius: 5px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+form h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+form label {
+  margin: 5px 0;
+}
+
+form input {
+  color: hsl(0, 0%, 20%);
+  background: none;
+  border: 1px solid hsl(0, 0%, 50%);
+  border-radius: 5px;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+form button {
+  background-color: hsl(48, 96%, 53%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: hsl(48, 96%, 40%);
+}
